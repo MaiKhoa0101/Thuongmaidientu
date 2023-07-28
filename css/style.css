@@ -280,6 +280,7 @@ a:focus {
 
 .slider_section .img-box img {
   width: 275px;
+  height: 569px;
 }
 
 .slider_section .detail-box {
@@ -878,9 +879,20 @@ a:focus {
 /*# sourceMappingURL=style.css.map */
 
 .coihang{
-  margin-left: 425px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 15px 30px;
+  height: 245px;
   max-width: 100%;
   max-height: 300px;
+  margin: auto;
 }
 
 
@@ -892,9 +904,12 @@ a:focus {
   align-items: center;
   margin-top: 250px;
   margin-bottom: 250px;
+  display: contents;
 }
 .mo_ta {
-  margin-left: 20px;
+  margin: auto;
+  margin-left: 25%;
+  
 }
 .ts {
   margin-top: 20px;
@@ -906,7 +921,9 @@ a:focus {
 }
 .mua {
   justify-content: center;
-  margin-left: 250px;
+  margin: auto;
+  margin-left: 40%;
+  margin-bottom: 35px;
 }
 .bx {
   width: 100px;
@@ -1023,14 +1040,14 @@ a:focus {
 .header__cart-item-name{
   font-size: 1.4rem;
   font-weight: 400;
-  color: wheat;
+  color: rgb(244, 105, 105);
   margin: 13px 6px 12px 0px;
 }
 
 .header__cart-item-price{
   font-size: 1.4rem;
   font-weight: 500;
-  color:wheat;
+  color:#757575;
   margin: 0;
 }
 
