@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Basic -->
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <!-- Site Metas -->
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+  <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+
+  <title>
+    Trang đăng ký tài khoản
+  </title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
+
+  <!-- Custom styles for this template -->
+  <link href="css/register.css" rel="stylesheet" />
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="register-container">
+        <span>
+            <img src="https://img.upanh.tv/2023/07/12/Suit_able_auto_x2.jpg" alt="Suit_able_auto_x2.jpg" border="0">
+        </span>
+        
+        <h2>Đăng ký tài khoản</h2>
+        <form class="register-form" method="post" action="dangki.php" onsubmit="return validateForm()">
+          <label for="name">Tên:</label>
+          <input type="text" id="name" name="ten" required>
+    
+          <label for="address">Địa chỉ:</label>
+          <input type="text" id="address" name ="diachi" required>
+    
+          <label for="phone">Số điện thoại:</label>
+          <input type="text" id="phone" name="sdt" required>
+    
+          <label for="username">Tài khoản:</label>
+          <input type="text" id="username" name="taikhoan" required>
+    
+          <label for="password">Mật khẩu:</label>
+          <input type="password" id="password" name="matkhau" required>
+    
+          <label for="confirm-password">Xác nhận mật khẩu:</label>
+          <input type="password" id="confirm-password" name="xacnhan" required>
+    
+          <button type="submit">Đăng ký</button>
+        </form>
+      </div>
+</body>
+
+</html>
