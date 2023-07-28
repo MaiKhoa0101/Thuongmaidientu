@@ -17,6 +17,9 @@
     Trang chủ - Suit_able
   </title>
 
+  <!--Script ở đây-->
+  <script src="javascript.js"></script>
+
   <!-- slider stylesheet -->
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
 
@@ -153,14 +156,15 @@
               </div>
           
               
-            </div>
+          </div>
             <form class="form-inline ">        
-              <input type="text" value="" placeholder="Nội dung tìm kiếm" name="noidungtimkiem" style="font-size: 12px; border: none; padding: 6px; margin-right: 12px;">                   
-              <button class="btn nav_search-btn" type="submit">
+              <input type="text" value="" placeholder="Nội dung tìm kiếm" name="noidungtimkiem" id="Timkiem" style="font-size: 12px; border: none; padding: 6px; margin-right: 12px;">                   
+              <button class="btn nav_search-btn" type="submit" onclick="timkiem()">
                 <i class="fa fa-search" aria-hidden="true"></i>
               </button>
             </form>
           </div>
+        
         </div>
       </nav>
     </header>
